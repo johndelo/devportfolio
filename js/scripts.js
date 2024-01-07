@@ -90,7 +90,7 @@
     });
 
     // Load additional projects
-    $('#view-more-projects').click(function(e){
+    $('#view-more-portfolio-items').click(function(e){
         e.preventDefault();
         $(this).fadeOut(300, function() {
             $('#more-projects').fadeIn(300);
