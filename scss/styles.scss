@@ -630,7 +630,7 @@ footer {
     -------------------------------
 */
 
-#projects {
+#portfolio {
     padding: 50px 15px;
     border-bottom: 1px solid $border;
     text-align: center;
@@ -641,7 +641,7 @@ footer {
     }
 }
 
-.project {
+.portfolio-item {
     position: relative;
     max-width: 900px;
     margin: 0 auto 30px auto;
@@ -654,7 +654,7 @@ footer {
     float: left;
 }
 
-.project-info {
+.portfolio-item-detail {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
@@ -676,7 +676,7 @@ footer {
 }
 
 .no-image {
-    .project-info {
+    .portfolio-item-detail {
         position: relative;
         margin: 0;
         padding: 30px 15px;
@@ -684,7 +684,7 @@ footer {
     }
 }
 
-#more-projects {
+#more-portfolio-items {
     display: none;
 }
 
@@ -962,7 +962,7 @@ footer {
         display: none;
     }
 
-    .project-info {
+    .portfolio-item-detail {
         position: relative;
         margin: 0;
         padding: 30px 15px;

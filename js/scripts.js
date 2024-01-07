@@ -89,11 +89,11 @@
         $('header, body').removeClass('active');
     });
 
-    // Load additional projects
-    $('#view-more-projects').click(function(e){
+    // Load additional portfolio items
+    $('#view-more-portfolio-items').click(function(e){
         e.preventDefault();
         $(this).fadeOut(300, function() {
-            $('#more-projects').fadeIn(300);
+            $('#more-portfolio-items').fadeIn(300);
         });
     });
 
